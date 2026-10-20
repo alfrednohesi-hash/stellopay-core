@@ -3,9 +3,12 @@ scripts/migrations/.env.migration
 backups/
 
 # Rust build output in every workspace member and tool crate.
+temp_auto_push.bat
 **/target/
 
 # Local environment files — may contain Stellar secret keys. Never commit.
 .env
 .env.*
 !.env.example
+.gitignore
+branch_structure.json
